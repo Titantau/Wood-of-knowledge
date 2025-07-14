@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les Bois du Savoir</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f9f5;
+      color: #2f4f4f;
+    }
+    header {
+      background-color: #8fbc8f;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background-color: #8fbc8f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="images/logo-cerf-vert.png" alt="Logo Cerf Vert" />
+    </div>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#activites">Activités</a>
+      <a href="#projets">Projets</a>
+      <a href="#boutique">Boutique</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h1>🌿 Bienvenue dans les Bois du Savoir</h1>
+      <p>Un lieu magique où les enfants découvrent, apprennent et s’amusent avec notre cerf vert curieux.</p>
+    </section>
+
+    <section class="section" id="activites">
+      <h2>📚 Activités Gratuites</h2>
+      <div class="card">
+        <h3>Coloriage des lettres</h3>
+        <p><a href="pdfs/coloriage-lettres.pdf" download>Télécharger la fiche (PDF)</a></p>
+      </div>
+      <div class="card">
+        <h3>Jeu de cartes mémoire (animaux)</h3>
+        <p><a href="pdfs/jeu-cartes-memoire.pdf" download>Télécharger le jeu (PDF)</a></p>
+      </div>
+      <div class="card">
+        <h3>Origamis faciles pour enfants</h3>
+        <p><a href="pdfs/origami-enfants.pdf" download>Télécharger les modèles (PDF)</a></p>
+      </div>
+      <div class="card">
+        <h3>Petit jeu de société à imprimer</h3>
+        <p><a href="pdfs/jeu-societe-maison.pdf" download>Télécharger le plateau (PDF)</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+      <h2>✨ Créer ton projet</h2>
+      <p>Tu veux organiser une fête, créer une activité ou mettre en place un projet spécial ? Choisis ton type de projet et télécharge un kit d'organisation adapté à ton idée !</p>
+
+      <div class="card">
+        <h3>Petit projet 🌱</h3>
+        <p>Exemples : organiser un goûter, créer une affiche, faire une surprise à un ami.</p>
+        <p><a href="pdfs/kit-petit-projet.pdf" download>Télécharger le kit (PDF)</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Moyen projet 🌿</h3>
+        <p>Exemples : organiser une chasse au trésor, créer un club de lecture, faire un mini spectacle.</p>
+        <p><a href="pdfs/kit-moyen-projet.pdf" download>Télécharger le kit (PDF)</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Grand projet 🌳</h3>
+        <p>Exemples : organiser une fête d’anniversaire, une exposition à la maison, un marché de jeux.</p>
+        <p><a href="pdfs/kit-grand-projet.pdf" download>Télécharger le kit (PDF)</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="boutique">
+      <h2>🛍️ Petite Boutique</h2>
+      <div class="card">
+        <h3>Pack "Découverte de la nature"</h3>
+        <p>5 fiches PDF à imprimer – 3 €</p>
+        <p><a href="https://ko-fi.com/boisdusavoir/shop">Acheter sur Ko-fi</a></p>
+      </div>
+      <div class="card">
+        <h3>Pack "Jeux à fabriquer à la maison"</h3>
+        <p>Jeux de société, cartes, activités créatives – 4 €</p>
+        <p><a href="https://ko-fi.com/boisdusavoir/shop">Acheter sur Ko-fi</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Les Bois du Savoir. Site éducatif pour petits curieux 🦌</p>
+  </footer>
+</body>
+</html>
